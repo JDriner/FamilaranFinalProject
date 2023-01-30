@@ -1,0 +1,91 @@
+body {
+    background: url(../assets/images/bg-image.jpg) no-repeat;
+    background-size: 100%;
+}
+
+.codehim-form {
+    max-width: 450px;
+    min-height: 200px;
+    box-sizing: border-box;
+    background: rgba(240, 241, 243, 0.493);
+    box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    margin: 50px 200px 50px auto;
+    padding: 25px;
+    color: #0c0c0c;
+
+}
+
+.cm-input {
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%;
+    margin: 14px auto;
+    border-radius: 20px;
+    border: 1px solid rgb(243, 238, 238);
+
+}
+
+.cm-input:focus {
+    outline: 0;
+    border-color: #28e5f3;
+
+}
+
+.cm-input:invalid {
+    border-color: #20ec9e;
+
+}
+
+/* Login Button Design */
+
+.btn-login {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.btn-login:focus {
+    outline: 0;
+}
+
+.btn-login:hover {
+    opacity: 0.8;
+    transition: .3s;
+}
+
+/* Gradient Background */
+.gr-bg {
+    background: rgb(252, 205, 128);
+    background: linear-gradient(90deg, rgb(36, 130, 207) 0%, rgb(84, 130, 230) 55%, rgb(57, 34, 184) 100%);
+}
+
+/* For, tiele */
+.form-title {
+    padding: 12px;
+    text-align: center;
+    position: relative;
+}
+
+.form-title h2 {
+    color: #0d56f1;
+}
+
+.form-title .user-icon {
+    position: absolute;
+    font-size: 42px;
+    color: #fff;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    border-radius: 45px;
+    top: -60px;
+    left: -45px;
+}
